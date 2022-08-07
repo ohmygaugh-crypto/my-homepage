@@ -8,6 +8,18 @@ Watch how I built this website on YouTube:
 
 [![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
+# Start /run locally
+npm run dev 
+## Notes
+blah blah blah tutorial: 
+
+For me-
+
+I converted all the .gltf 3d models located in the public folder to .glb files using this website: https://sbtron.github.io/makeglb/
+
+
+
+
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
