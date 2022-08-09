@@ -1,4 +1,4 @@
-import NextLink from 'next/link'
+//import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+//import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -45,7 +45,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an product manager based in the USA!
+        Hello, I am a product manager based in the USA!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -90,7 +90,7 @@ const Home = () => (
           Seth likes to get his hands dirty. He is a rebellious freelance full-stack developer based in South Carolina with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online chasing shiny objects... he's either learning to
+          way to solving real-life problems with code. When not online chasing shiny objects... he is either learning to
           cook new foods, or out in the woods catching it. Currently, he is focused on building
           an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. 
         </Paragraph>
