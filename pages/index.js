@@ -17,14 +17,22 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import thumbBlackbaud from '../public/images/links/blackbaudsocialgoodstartup.png'
+import thumbThrivacy from '../public/images/works/thrivacycommunity.jpg'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
+
+//line 98 I removed: <Box align="center" my={4}>
+          //<NextLink href="/works" passHref scroll={false}>
+          //<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            //My portfolio
+          //</Button>
+        //</NextLink>
+      //</Box>
 
 const Home = () => (
   <Layout>
@@ -79,29 +87,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Seth is a freelance and a full-stack developer based in South Carolina with a
+          Seth likes to get his hands dirty. He is a rebellious freelance full-stack developer based in South Carolina with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          cooking new foods. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Thrivacy</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          way to solving real-life problems with code. When not online chasing shiny objects... he's either learning to
+          cook new foods, or out in the woods catching it. Currently, he is focused on building
+          an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. 
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
+        
       </Section>
 
       <Section delay={0.2}>
@@ -114,17 +107,25 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed the IBCE&apos;s Program in the Darla Moore School of
+          Completed the{' '} 
+          <Link href="https://sc.edu/study/colleges_schools/moore/study/international_business/degree_programs/bachelors/curriculum/cohort_programs/ibce_hong_kong/index.php">
+          IBCE{' '} 
+          </Link>
+            Program in the Darla Moore School of
           Business at the Chinese University of Hong Kong.
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Co-founded a startup called Thrivacy! Columbia, SC + Remote (ヤフー株式会社入社)
+          Co-founded a startup called{' '}
+          <Link href="https://www.thrivacy.io/why-thrivacy">
+          THRIVACY!{' '} 
+          </Link>
+           Columbia, SC - USA.
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-          Working as a freelancer
+          Working as a freelance UXUI Designer and Product Manager.
         </BioSection>
       </Section>
 
@@ -133,15 +134,13 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Cooking
-          </Link>
-          , Hunting,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Diving
-          </Link>
-          , AR, Machine Learning, Logseq
+            Cooking, Hunting, Fishing,{' '}
+          <Link href="https://www.validide.io/" target="_blank">
+          Augmented Reality, {' '} 
+          </Link >
+          <Link href="https://www.logseq.com" target="_blank">
+             Logseq
+          </Link >
         </Paragraph>
       </Section>
 
@@ -162,13 +161,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/MyThrivacy" target="_blank">
+            <Link href="https://www.linkedin.com/in/seth-mcgaugh/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoLinkedin />}
               >
-                @MyThrivacy 
+                @seth-mcgaugh (contact me here)
               </Button>
             </Link>
           </ListItem>
@@ -198,32 +197,32 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
+            href="https://www.blackbaud.com/newsroom/article/2021/12/29/blackbaud-s-social-good-startup-program-brings-innovative-tech-solutions-to-mission-based-organizations"
+            title="Startup for Social Good"
+            thumbnail={thumbBlackbaud}
           >
-            My YouTube channel (&gt;100k subs)
+            My Mission 
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
+            href="https://www.thrivacy.io/"
+            title="THRIVACY"
+            thumbnail={thumbThrivacy}
           >
-            A Markdown note-taking app
+            A Privacy Company
           </GridItem>
         </SimpleGrid>
 
-        <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
+        
       </Section>
     </Container>
   </Layout>
 )
-
+//line 216 I removed: <Box align="center" my={4}>
+          //<NextLink href="/posts" passHref scroll={false}>
+          //<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            //Popular posts
+          //</Button>
+        //</NextLink>
+      //</Box>
 export default Home
 export { getServerSideProps } from '../components/chakra'

@@ -36,6 +36,14 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   )
 }
 
+//Insert below to add back "works" & "posts" into navbar oon line 82 within <Stack>...</Stack>
+//<LinkItem href="/works" path={path}>
+//Works
+//</LinkItem>
+//<LinkItem href="/posts" path={path}>
+  //Posts
+//</LinkItem>
+
 const Navbar = props => {
   const { path } = props
 
@@ -71,12 +79,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
+          
           <LinkItem
             target="_blank"
             href="https://github.com/ohmygaugh-crypto/my-homepage"
@@ -90,41 +93,43 @@ const Navbar = props => {
             Source
           </LinkItem>
         </Stack>
+        
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
 
-          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu isLazy id="navbar-menu">
-              <MenuButton
-                as={IconButton}
-                icon={<HamburgerIcon />}
-                variant="outline"
-                aria-label="Options"
-              />
-              <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/ohmygaugh-crypto/my-homepage"
-                >
-                  View Source
-                </MenuItem>
-              </MenuList>
-            </Menu>
-          </Box>
+          
         </Box>
       </Container>
     </Box>
   )
 }
-
+//ad this to line 100 under <ThemeToggleButton />:
+//<Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+//<Menu isLazy id="navbar-menu">
+//<MenuButton
+  //as={IconButton}
+  //icon={<HamburgerIcon />}
+  //variant="outline"
+  //aria-label="Options"
+///>
+//<MenuList>
+  //<NextLink href="/" passHref>
+    //<MenuItem as={Link}>About</MenuItem>
+  //</NextLink>
+  //<NextLink href="/works" passHref>
+    //<MenuItem as={Link}>Works</MenuItem>
+  //</NextLink>
+  ///<NextLink href="/posts" passHref>
+    //<MenuItem as={Link}>Posts</MenuItem>
+  //</NextLink>
+  //<MenuItem
+    //as={Link}
+    //href="https://github.com/ohmygaugh-crypto/my-homepage"
+  //>
+    //View Source
+  //</MenuItem>
+//</MenuList>
+//</Menu>
+//</Box>
 export default Navbar

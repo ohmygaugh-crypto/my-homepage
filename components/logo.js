@@ -23,12 +23,12 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   const iconLogoimage = `/images/footprint${useColorModeValue('', '-dark')}.png`
-
+//to add logo back insert <Image src={iconLogoimage} width={20} height={20} alt="logo" /> for line 31
   return (
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <Image src={iconLogoimage} width={20} height={20} alt="logo" />
+         
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
