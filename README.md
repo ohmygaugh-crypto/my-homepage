@@ -1,10 +1,4 @@
 
-## Tutorial
-
-Watch how I built this website on YouTube:
-
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
-
 # Start /run locally
 npm run dev 
 ## Notes
