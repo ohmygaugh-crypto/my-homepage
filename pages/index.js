@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m an product manager based in the USA!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Seth McGaugh
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Native ( Product Manager / Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/linkedinHEADSHOT.png"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -79,14 +79,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          Seth is a freelance and a full-stack developer based in South Carolina with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
+          cooking new foods. Currently, he is living off of his own
           product called{' '}
           <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
+            <Link>Thrivacy</Link>
           </NextLink>
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
@@ -109,21 +109,21 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1996</BioYear>
+          Born in the United States.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
+          <BioYear>2019</BioYear>
+          Completed the IBCE&apos;s Program in the Darla Moore School of
+          Business at the Chinese University of Hong Kong.
           (奈良先端科学技術大学院大学情報科学研究科修士課程)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2020</BioYear>
+          Co-founded a startup called Thrivacy! Columbia, SC + Remote (ヤフー株式会社入社)
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
+          <BioYear>2022 to present</BioYear>
           Working as a freelancer
         </BioSection>
       </Section>
@@ -135,13 +135,13 @@ const Home = () => (
         <Paragraph>
           Art, Music,{' '}
           <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+            Cooking
           </Link>
-          , Playing Drums,{' '}
+          , Hunting,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
+            Diving
           </Link>
-          , Leica, Machine Learning
+          , AR, Machine Learning, Logseq
         </Paragraph>
       </Section>
 
@@ -151,46 +151,46 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/ohmygaugh-crypto" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @ohmygaugh-crypto
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/MyThrivacy" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @MyThrivacy 
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/seth_mcgaugh" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @craftzdog (日本語)
+                @seth_mcgaugh
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://www.linkedin.com/in/seth-mcgaugh/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @seth-mcgaugh
               </Button>
             </Link>
           </ListItem>

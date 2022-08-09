@@ -1,6 +1,3 @@
-# Takuya's Homepage
-
-[https://www.craftz.dog/](https://www.craftz.dog/)
 
 ## Tutorial
 
@@ -17,6 +14,9 @@ For me-
 
 I converted all the .gltf 3d models located in the public folder to .glb files using this website: https://sbtron.github.io/makeglb/
 
+And a hidden link for the craftzdog page which this page is inspried by
+
+lib/themejs is where colors reside.
 
 
 
@@ -44,16 +44,3 @@ $PROJECT_ROOT
 ## License
 
 MIT License.
-
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/)
-- Do not use the 3d voxel dog
-
-Check out [LICENSE](./LICENSE) for more detail.
-
----
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)

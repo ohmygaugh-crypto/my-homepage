@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
-        Inkdrop <Badge>2016-</Badge>
+        Thrivacy <Badge>2016-</Badge>
       </Title>
       <P>
         A Markdown note-taking app with 100+ plugins, cross-platform and
