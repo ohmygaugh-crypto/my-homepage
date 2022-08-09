@@ -1,7 +1,5 @@
 # Seth's Homepage
 
-## Tutorial
-
 # Start /run locally
 npm run dev 
 
