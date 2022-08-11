@@ -19,7 +19,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbBlackbaud from '../public/images/links/blackbaudsocialgoodstartup.png'
-import thumbThrivacy from '../public/images/works/thrivacycommunity.jpg'
+
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
