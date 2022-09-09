@@ -41,3 +41,6 @@ MIT License.
 
 
 - Inspired by [this homepage](https://www.craftz.dog/)
+
+     
+where to put this?:  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5xiztvBdlUf?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>

@@ -81,18 +81,19 @@ const Home = () => (
           </Box>
         </Box>
       </Box>
+      <Section></Section>
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
         <Paragraph>
-          Seth likes to get his hands dirty. He is a rebellious freelance full-stack developer based in South Carolina with a
+          An adventurer, futurist, and foodie. Seth has been called a legend by Aussies on numerous accounts along his travels. He is a wannabe Anthony Bourdain who can code. A rebellious full-stack developer based in South Carolina with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online chasing shiny objects... he is either learning to
-          cook new foods, or out in the woods catching it. Currently, he is focused on building
-          an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. 
+          way to solving real-life problems programming. When he's not online chasing shiny objects... he is mastering his craft in the kitchen 
+          or out in the woods getting his hands dirty. Currently, he is focused on building
+          an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. Of course he is working on a web3 project! 
         </Paragraph>
         
       </Section>
@@ -102,17 +103,14 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1996</BioYear>
-          Born in the United States.
-        </BioSection>
-        <BioSection>
           <BioYear>2019</BioYear>
           Completed the{' '} 
           <Link href="https://sc.edu/study/colleges_schools/moore/study/international_business/degree_programs/bachelors/curriculum/cohort_programs/ibce_hong_kong/index.php">
           IBCE{' '} 
           </Link>
             Program in the Darla Moore School of
-          Business at the Chinese University of Hong Kong.
+          Business at the Chinese University of Hong Kong.       
+          🛬🌸⛱️🌄🚋🌁🏙️🎡⛴️🏙️🌁🚇🛤️🚞🎓📜👨‍💼💼💵
           
         </BioSection>
         <BioSection>
@@ -121,11 +119,15 @@ const Home = () => (
           <Link href="https://www.thrivacy.io/why-thrivacy">
           THRIVACY!{' '} 
           </Link>
-           Columbia, SC - USA.
+           Columbia, SC - USA. 💸📲🤳🔒🔗🌐🎢
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-          Working as a freelance UXUI Designer and Product Manager.
+          Working as a freelance UXUI Designer, Web3 Developer, and Product Manager. 👨‍💻
+        </BioSection>
+        <BioSection>
+          <BioYear>TBA</BioYear>
+          Portfolio coming soon... 
         </BioSection>
       </Section>
 
@@ -142,6 +144,23 @@ const Home = () => (
              Logseq
           </Link >
         </Paragraph>
+
+        <Box>
+        <Box textAlign="center">
+            <Image
+              src="/images/AR/tropics.png"
+              width="220%"
+              height="220%"
+            />
+              <Image
+              
+              src="/images/AR/hiromarker.png"
+              width="220%"
+              height="220%"
+            />
+        </Box>
+        </Box>
+
       </Section>
 
       <Section delay={0.3}>
