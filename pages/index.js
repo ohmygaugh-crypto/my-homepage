@@ -91,7 +91,7 @@ const Home = () => (
           An adventurer, futurist, and foodie. Seth has been called a legend by Aussies on numerous accounts along his travels. He is a wannabe Anthony Bourdain who can code. A rebellious full-stack developer based in South Carolina with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems programming. When he's not online chasing shiny objects... he is mastering his craft in the kitchen 
+          way to solving real-life problems programming. When he is not online chasing shiny objects... he is mastering his craft in the kitchen 
           or out in the woods getting his hands dirty. Currently, he is focused on building
           an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. Of course he is working on a web3 project! 
         </Paragraph>
