@@ -88,12 +88,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          An adventurer, futurist, and foodie. Seth has been called a legend by Aussies on numerous accounts along his travels. He is a wannabe Anthony Bourdain who can code. A rebellious full-stack developer based in South Carolina with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems programming. When he is not online chasing shiny objects... he is mastering his craft in the kitchen 
-          or out in the woods getting his hands dirty. Currently, he is focused on building
-          an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. Of course he is working on a web3 project! 
+        {'"A Jack of all trades master of none, is better than a master of one."'}
+        </Paragraph>
+        
+        <Paragraph>
+        Seth, lives by this mantra as he pretty much does it all. Maybe not exactly what most job postings are looking for yet, the startup life made him where many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. Thats just life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah: 
         </Paragraph>
         
       </Section>
@@ -108,26 +107,54 @@ const Home = () => (
           <Link href="https://sc.edu/study/colleges_schools/moore/study/international_business/degree_programs/bachelors/curriculum/cohort_programs/ibce_hong_kong/index.php">
           IBCE{' '} 
           </Link>
-            Program in the Darla Moore School of
-          Business at the Chinese University of Hong Kong.       
-          🛬🌸⛱️🌄🚋🌁🏙️🎡⛴️🏙️🌁🚇🛤️🚞🎓📜👨‍💼💼💵
+            Program within the Darla Moore School of
+          Business at the Chinese University of Hong Kong. Also, worked at a seed stage FinTech startup called{' '}
+          <Link href="https://www.gini.co/">
+            gini.{' '}
+          </Link>     
           
+          
+        </BioSection>
+        <BioSection>
+          <BioYear>2020</BioYear>
+          Earned 3rd place in the University of South Carolina {' '}
+          <Link href="https://www.sc.edu/about/offices_and_divisions/provost/academicpriorities/undergradstudies/mcnair_blockchain.php">
+          McNair Institute Blockchain Challenge
+          </Link>{' '}
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
           Co-founded a startup called{' '}
           <Link href="https://www.thrivacy.io/why-thrivacy">
-          THRIVACY!{' '} 
+          THRIVACY!{' '}
           </Link>
-           Columbia, SC - USA. 💸📲🤳🔒🔗🌐🎢
+          A Web3 Wallet & Privacy Platform based in Columbia, SC - USA.
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
+          <BioYear>2021</BioYear>
+          Accepted into the{' '}
+          <Link href="https://www.blackbaud.com/socialgoodaccelerator">
+          Blackbaud Social Good Accelerator.
+          </Link>
+          {' '}As well as {' '}
+          <Link href="https://www.velocitynetwork.foundation/member_category/general">
+          The Velocity Network Foundation.
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Accepted into the{' '}
+          <Link href="https://vilcap.com/current-programs/ibm-hyper-protect-accelerator">
+            Village Capital Hyper Accelerator.
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>Currently</BioYear>
           Working as a freelance UXUI Designer, Web3 Developer, and Product Manager. 👨‍💻
         </BioSection>
         <BioSection>
           <BioYear>TBA</BioYear>
-          Portfolio coming soon... 
+          Portfolio coming soon... 🍈🍉 
         </BioSection>
       </Section>
 
@@ -136,12 +163,13 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-            Cooking, Hunting, Fishing,{' '}
+            Product Managment. It primes me to listen first, speak less, and taking action decisively. If I amm not staring at a screen all day I enjoy: Cooking, Hunting, and Fishing. When I am staring at a screen all day I am building on the latest tools like:{' '}
           <Link href="https://www.validide.io/" target="_blank">
-          Augmented Reality, {' '} 
+          A-Frame {' '} 
           </Link >
+          and {' '}
           <Link href="https://www.logseq.com" target="_blank">
-             Logseq
+             Logseq.
           </Link >
         </Paragraph>
 

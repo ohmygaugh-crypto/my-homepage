@@ -240,7 +240,10 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                             children: "Work"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-                            children: "An adventurer, futurist, and foodie. Seth has been called a legend by Aussies on numerous accounts along his travels. He is a wannabe Anthony Bourdain who can code. A rebellious full-stack developer based in South Carolina with a passion for building digital services/stuff he wants. He has a knack for all things launching products, from planning and designing all the way to solving real-life problems programming. When he is not online chasing shiny objects... he is mastering his craft in the kitchen or out in the woods getting his hands dirty. Currently, he is focused on building an identity product called THRIVACY which will advance both the internet of careers and serve as a medium for decentralized credential exchange in everday life. Of course he is working on a web3 project!"
+                            children: '"A Jack of all trades master of none, is better than a master of one."'
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                            children: "Seth, lives by this mantra as he pretty much does it all. Maybe not exactly what most job postings are looking for yet, the startup life made him where many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. Thats just life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah:"
                         })
                     ]
                 }),
@@ -266,7 +269,29 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                                         " "
                                     ]
                                 }),
-                                "Program in the Darla Moore School of Business at the Chinese University of Hong Kong. \uD83D\uDEEC\uD83C\uDF38⛱️\uD83C\uDF04\uD83D\uDE8B\uD83C\uDF01\uD83C\uDFD9️\uD83C\uDFA1⛴️\uD83C\uDFD9️\uD83C\uDF01\uD83D\uDE87\uD83D\uDEE4️\uD83D\uDE9E\uD83C\uDF93\uD83D\uDCDC\uD83D\uDC68‍\uD83D\uDCBC\uD83D\uDCBC\uD83D\uDCB5"
+                                "Program within the Darla Moore School of Business at the Chinese University of Hong Kong. Also, worked at a seed stage FinTech startup called",
+                                " ",
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                                    href: "https://www.gini.co/",
+                                    children: [
+                                        "gini.",
+                                        " "
+                                    ]
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioSection */ .K, {
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioYear */ .q, {
+                                    children: "2020"
+                                }),
+                                "Earned 3rd place in the University of South Carolina ",
+                                " ",
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                                    href: "https://www.sc.edu/about/offices_and_divisions/provost/academicpriorities/undergradstudies/mcnair_blockchain.php",
+                                    children: "McNair Institute Blockchain Challenge"
+                                }),
+                                " "
                             ]
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioSection */ .K, {
@@ -283,13 +308,46 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                                         " "
                                     ]
                                 }),
-                                "Columbia, SC - USA. \uD83D\uDCB8\uD83D\uDCF2\uD83E\uDD33\uD83D\uDD12\uD83D\uDD17\uD83C\uDF10\uD83C\uDFA2"
+                                "A Web3 Wallet & Privacy Platform based in Columbia, SC - USA."
                             ]
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioSection */ .K, {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioYear */ .q, {
-                                    children: "2022 to present"
+                                    children: "2021"
+                                }),
+                                "Accepted into the",
+                                " ",
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                                    href: "https://www.blackbaud.com/socialgoodaccelerator",
+                                    children: "Blackbaud Social Good Accelerator."
+                                }),
+                                " ",
+                                "As well as ",
+                                " ",
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                                    href: "https://www.velocitynetwork.foundation/member_category/general",
+                                    children: "The Velocity Network Foundation."
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioSection */ .K, {
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioYear */ .q, {
+                                    children: "2022"
+                                }),
+                                "Accepted into the",
+                                " ",
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
+                                    href: "https://vilcap.com/current-programs/ibm-hyper-protect-accelerator",
+                                    children: "Village Capital Hyper Accelerator."
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioSection */ .K, {
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioYear */ .q, {
+                                    children: "Currently"
                                 }),
                                 "Working as a freelance UXUI Designer, Web3 Developer, and Product Manager. \uD83D\uDC68‍\uD83D\uDCBB"
                             ]
@@ -299,7 +357,7 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioYear */ .q, {
                                     children: "TBA"
                                 }),
-                                "Portfolio coming soon..."
+                                "Portfolio coming soon... \uD83C\uDF48\uD83C\uDF49"
                             ]
                         })
                     ]
@@ -314,20 +372,22 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                             children: [
-                                "Cooking, Hunting, Fishing,",
+                                "Product Managment. It primes me to listen first, speak less, and taking action decisively. If I amm not staring at a screen all day I enjoy: Cooking, Hunting, and Fishing. When I am staring at a screen all day I am building on the latest tools like:",
                                 " ",
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
                                     href: "https://www.validide.io/",
                                     target: "_blank",
                                     children: [
-                                        "Augmented Reality, ",
+                                        "A-Frame ",
                                         " "
                                     ]
                                 }),
+                                "and ",
+                                " ",
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
                                     href: "https://www.logseq.com",
                                     target: "_blank",
-                                    children: "Logseq"
+                                    children: "Logseq."
                                 })
                             ]
                         }),
