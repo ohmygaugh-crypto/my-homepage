@@ -37,9 +37,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
 }
 
 //Insert below to add back "works" & "posts" into navbar oon line 82 within <Stack>...</Stack>
-//<LinkItem href="/works" path={path}>
-//Works
-//</LinkItem>
+
 //<LinkItem href="/posts" path={path}>
   //Posts
 //</LinkItem>
@@ -91,6 +89,9 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
+          </LinkItem>
+          <LinkItem href="/works" path={path}>
+            My Portfolio
           </LinkItem>
         </Stack>
         

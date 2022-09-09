@@ -161,7 +161,7 @@ const ProfileImage = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.chakra)((n
             "alt"
         ].includes(prop)
 });
-//line 98 I removed: <Box align="center" my={4}>
+//line 87 under paragraph before last </section> I removed: <Box align="center" my={4}>
 //<NextLink href="/works" passHref scroll={false}>
 //<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
 //My portfolio
@@ -243,7 +243,7 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                             children: '"A Jack of all trades master of none, is better than a master of one."'
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_paragraph__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-                            children: "Seth, lives by this mantra as he pretty much does it all. Maybe not exactly what most job postings are looking for yet, the startup life made him where many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. Thats just life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah:"
+                            children: "Seth pretty much lives by this mantra. As a product manager it is not exactly what most job postings require yet, the startup life made him wear many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. That is life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah:"
                         })
                     ]
                 }),
@@ -357,7 +357,7 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_bio__WEBPACK_IMPORTED_MODULE_3__/* .BioYear */ .q, {
                                     children: "TBA"
                                 }),
-                                "Portfolio coming soon... \uD83C\uDF48\uD83C\uDF49"
+                                "Portfolio coming soon..."
                             ]
                         })
                     ]
@@ -390,23 +390,6 @@ const Home = ()=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.js
                                     children: "Logseq."
                                 })
                             ]
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Box, {
-                                textAlign: "center",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_10___default()), {
-                                        src: "/images/AR/tropics.png",
-                                        width: "220%",
-                                        height: "220%"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_10___default()), {
-                                        src: "/images/AR/hiromarker.png",
-                                        width: "220%",
-                                        height: "220%"
-                                    })
-                                ]
-                            })
                         })
                     ]
                 }),

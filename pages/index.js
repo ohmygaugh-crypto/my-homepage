@@ -26,7 +26,7 @@ const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
-//line 98 I removed: <Box align="center" my={4}>
+//line 87 under paragraph before last </section> I removed: <Box align="center" my={4}>
           //<NextLink href="/works" passHref scroll={false}>
           //<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
             //My portfolio
@@ -92,7 +92,7 @@ const Home = () => (
         </Paragraph>
         
         <Paragraph>
-        Seth, lives by this mantra as he pretty much does it all. Maybe not exactly what most job postings are looking for yet, the startup life made him where many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. Thats just life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah: 
+        Seth pretty much lives by this mantra. As a product manager it is not exactly what most job postings require yet, the startup life made him wear many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. That is life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah: 
         </Paragraph>
         
       </Section>
@@ -154,7 +154,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>TBA</BioYear>
-          Portfolio coming soon... 🍈🍉 
+          Portfolio coming soon...  
         </BioSection>
       </Section>
 
@@ -172,22 +172,6 @@ const Home = () => (
              Logseq.
           </Link >
         </Paragraph>
-
-        <Box>
-        <Box textAlign="center">
-            <Image
-              src="/images/AR/tropics.png"
-              width="220%"
-              height="220%"
-            />
-              <Image
-              
-              src="/images/AR/hiromarker.png"
-              width="220%"
-              height="220%"
-            />
-        </Box>
-        </Box>
 
       </Section>
 

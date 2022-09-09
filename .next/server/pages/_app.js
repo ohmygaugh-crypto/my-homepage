@@ -295,9 +295,6 @@ const LinkItem = ({ href , path , target , children , ...props })=>{
     });
 };
 //Insert below to add back "works" & "posts" into navbar oon line 82 within <Stack>...</Stack>
-//<LinkItem href="/works" path={path}>
-//Works
-//</LinkItem>
 //<LinkItem href="/posts" path={path}>
 //Posts
 //</LinkItem>
@@ -331,7 +328,7 @@ const Navbar = (props)=>{
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_logo__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})
                     })
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Stack, {
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Stack, {
                     direction: {
                         base: "column",
                         md: "row"
@@ -350,21 +347,28 @@ const Navbar = (props)=>{
                         base: 4,
                         md: 0
                     },
-                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(LinkItem, {
-                        target: "_blank",
-                        href: "https://github.com/ohmygaugh-crypto/my-homepage",
-                        path: path,
-                        display: "inline-flex",
-                        alignItems: "center",
-                        style: {
-                            gap: 4
-                        },
-                        pl: 2,
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoLogoGithub, {}),
-                            "Source"
-                        ]
-                    })
+                    children: [
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(LinkItem, {
+                            target: "_blank",
+                            href: "https://github.com/ohmygaugh-crypto/my-homepage",
+                            path: path,
+                            display: "inline-flex",
+                            alignItems: "center",
+                            style: {
+                                gap: 4
+                            },
+                            pl: 2,
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_io5__WEBPACK_IMPORTED_MODULE_5__.IoLogoGithub, {}),
+                                "Source"
+                            ]
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(LinkItem, {
+                            href: "/works",
+                            path: path,
+                            children: "My Portfolio"
+                        })
+                    ]
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Box, {
                     flex: 1,
@@ -456,7 +460,7 @@ const ThemeToggleButton = ()=>{
             },
             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.IconButton, {
                 "aria-label": "Toggle theme",
-                colorScheme: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.useColorModeValue)("purple", "orange"),
+                colorScheme: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.useColorModeValue)("lime", "lime"),
                 icon: (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.useColorModeValue)(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_3__.MoonIcon, {}), /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_3__.SunIcon, {})),
                 onClick: toggleColorMode
             })
