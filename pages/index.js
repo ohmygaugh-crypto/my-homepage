@@ -45,7 +45,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I am a product manager based in the USA!
+        Hello, I am a product strategist based in the USA!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -53,7 +53,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Seth McGaugh
           </Heading>
-          <p>Digital Native ( Product Manager / Developer / Designer )</p>
+          <p>Digital Native ( Product Strategist / Manager / Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -90,9 +90,9 @@ const Home = () => (
         <Paragraph>
         {'"A Jack of all trades master of none, is better than a master of one."'}
         </Paragraph>
-        
+        <br> </br>
         <Paragraph>
-        Seth pretty much lives by this mantra. As a product manager it is not exactly what most job postings require yet, the startup life made him wear many hats. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. That is life. His career is just getting started. Pivoting from finance to software development. His mission is to lead dev teams towards building software products so that one day he will run his own company when the time is right. Until then he is going to listen, take notes, and get the team fired up to build something awesome. He is currently open for business so reach out to him below if you want him to work on something for yah: 
+        Seth pretty much lives by this mantra. Choosing the startup path made him wear many hats over the years. That pretty much hasn't changed since. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. That is life. Pivoting from finance to software development. He has found his groove. His mission is to lead dev teams towards building delightful, human-centered, software UIUX so, that one day, he will run his own company when the time is right. Until then he is going to listen, take notes, manage expectations, and get teams fired up and aligned to build something awesome. 
         </Paragraph>
         
       </Section>
@@ -149,8 +149,15 @@ const Home = () => (
           </Link>
         </BioSection>
         <BioSection>
+          <BioYear>2023</BioYear>
+          Worked as a Product Strategist at{' '}
+          <Link href="https://www.anthroware.com/">
+            Anthroware.
+          </Link>
+        </BioSection>
+        <BioSection>
           <BioYear>Currently</BioYear>
-          Working as a freelance UXUI Designer, Web3 Developer, and Product Manager. 👨‍💻
+          Looking for work enabling human-centered UIUX as a Product Strategist/Manager 👨‍💻
         </BioSection>
         <BioSection>
           <BioYear>TBA</BioYear>
@@ -163,10 +170,13 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-            Product Managment. It primes me to listen first, speak less, and taking action decisively. If I amm not staring at a screen all day I enjoy: Cooking, Hunting, and Fishing. When I am staring at a screen all day I am building on the latest tools like:{' '}
+            Product Strategy. It primes me to listen first, speak less, saying "NO" and taking action decisively. If I am not staring at a screen all day I enjoy: Cooking, Pickleball, and the Hunting/Fishing. When I am staring at a screen all day I am building on the latest tools like:{' '}
           <Link href="https://www.validide.io/" target="_blank">
-          A-Frame {' '} 
+          A-Frame, {' '} 
           </Link >
+          <Linkh ref="https://www.obsidian.com" target="_blank">
+             obsidian>
+          </Link>
           and {' '}
           <Link href="https://www.logseq.com" target="_blank">
              Logseq.
