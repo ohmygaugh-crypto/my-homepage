@@ -90,9 +90,11 @@ const Home = () => (
         <Paragraph>
         {'"A Jack of all trades master of none, is better than a master of one."'}
         </Paragraph>
-        <br> </br>
+        <br> 
+        
+        </br>
         <Paragraph>
-        {'Seth pretty much lives by this mantra. Choosing the startup path made him wear many hats over the years. That pretty much hasn`&apos;`t changed since. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. That is life. Pivoting from finance to software development. He has found his groove. His mission is to lead dev teams towards building delightful, human-centered, software UIUX so, that one day, he will run his own company when the time is right. Until then he is going to listen, take notes, manage expectations, and get teams fired up and aligned to build something awesome.'} 
+        {'Seth pretty much lives by this mantra. Choosing the startup path made him wear many hats over the years. That pretty much hasn`&apos;`t changed since. He primarily lead the product roadmap for Thrivacy. There he often had to get his hands dirty with UIUX design, Fullstack Development, and DevOps when there was pretty much no cashflow to pay for developer assistance. That is life. Pivoting from finance to software development. He has found his groove. His mission is to lead dev teams towards building delightful, human-centered, software UIUX so, that one day, he will run his own company when the time is right. Until then he is going to listen, take notes, manage expectations, get teams fired up and aligned to build something awesome.'} 
         </Paragraph>
         
       </Section>
