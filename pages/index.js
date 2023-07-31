@@ -170,17 +170,17 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-            Product Strategy. It primes me to listen first, speak less, saying "NO" and taking action decisively. If I am not staring at a screen all day I enjoy: Cooking, Pickleball, and the Hunting/Fishing. When I am staring at a screen all day I am building on the latest tools like:{' '}
+            Product Strategy. It primes me to listen first, speak less, saying `&ldquo;`NO`&ldquo;` and taking action decisively. If I am not staring at a screen all day I enjoy: Cooking, Pickleball, and the Hunting/Fishing. When I am staring at a screen all day I am building on the latest tools like:{' '}
           <Link href="https://www.validide.io/" target="_blank">
           A-Frame,{' '} 
-          </Link >
+          </Link>
           <Link ref="https://www.obsidian.com" target="_blank">
              obsidian{' '}
           </Link>
           and{' '}
           <Link href="https://www.logseq.com" target="_blank">
              Logseq.
-          </Link >
+          </Link>
         </Paragraph>
 
       </Section>
