@@ -174,7 +174,7 @@ const Home = () => (
           <Link href="https://www.validide.io/" target="_blank">
           A-Frame,{' '} 
           </Link>
-          <Link ref="https://www.obsidian.com" target="_blank">
+          <Link href="https://www.obsidian.com" target="_blank">
              obsidian{' '}
           </Link>
           and{' '}
