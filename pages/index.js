@@ -175,7 +175,7 @@ const Home = () => (
             I ♥
           </Heading>
           <Paragraph>
-              Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When I'm not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and (more recently) Pickleball. As a hobbyist I am building on the latest tools like:{' '}
+              Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When "I&#39;m" not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and (more recently) Pickleball. As a hobbyist I am building on the latest tools like:{' '}
             <Link href="https://www.validide.io/" target="_blank">
             A-Frame,{' '} 
             </Link>
