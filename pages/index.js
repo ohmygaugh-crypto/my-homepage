@@ -75,11 +75,11 @@ const Home = () => (
               overflow="hidden"
             >
               <ProfileImage
-                src="/images/linkedinHEADSHOT.png"
+                src="/images/SethFuturist.png"
                 alt="Profile image"
-                borderRadius="full"
-                width="100%"
-                height="100%"
+                borderRadius="zoom"
+                width="105%"
+                height="125%"
               />
             </Box>
           </Box>
