@@ -17,10 +17,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoAnalyticsOutline} from 'react-icons/io5'
 import thumbBlackbaud from '../public/images/links/blackbaudsocialgoodstartup.png'
 import thumbThrivacy from '../public/images/works/Thrivacycommunity.jpg'
 import Image from 'next/image'
+//import Graph from '../components/icons/graph.js' ... bad idea
+
 
 
 const ProfileImage = chakra(Image, {
@@ -54,7 +56,7 @@ const Home = () => (
             <Heading as="h2" variant="page-title">
               Seth McGaugh
             </Heading>
-            <p>Digital Native ( Product Strategist / Manager / Developer / Designer )</p>
+            <p>Digital Native ( Product Strategist / Programmer )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -95,7 +97,7 @@ const Home = () => (
           
           </br>
           <Paragraph>
-          {'Seth pretty much lives by this mantra. Choosing the startup path made him wear many hats over the years. That hasn`t changed much. He often has to get his hands dirty with UIUX design, Fullstack Development, and DevOps. Pivoting from finance to software development. He has found his groove. His mission is to lead dev teams towards building delightful, human-centered, software products. When the time is right, he intends to run his own company. Until then, he is going to listen, take notes, align expectations, and get teams fired up to build something awesome.'} 
+          {'Seth pretty much lives by this mantra. Choosing the startup path made him wear many hats over the years. He often gets his hands dirty with UIUX design, Fullstack Development, and DevOps. Pivoting from finance to software development. He has certainly found his groove. His mission is to lead dev teams towards building delightful, human-centered, software products. When the time is right, he intends to run his own company. Until then, he is going to listen, take notes, align expectations, and get teams fired up to build something awesome.'} 
           </Paragraph>
           
         </Section>
@@ -160,7 +162,7 @@ const Home = () => (
           </BioSection>
           <BioSection>
             <BioYear>Currently</BioYear>
-            Looking for work that embarks on enabling human-centered UIUX as a Product Strategist/Manager 👨‍💻, or to assist great products as a Sales Engineer.
+            Looking for software product work that enables the human experience 👨‍💻.
           </BioSection>
           <BioSection>
             <BioYear>TBA</BioYear>
@@ -173,7 +175,7 @@ const Home = () => (
             I ♥
           </Heading>
           <Paragraph>
-              Product Strategy. It primes me to listen first, speak less, saying 'NO' more, and taking action(s) decisively. When I'm not staring at screens professionally I enjoy: Cooking, Pickleball, and the Hunting/Fishing. As a hobbyist I am building on the latest tools like:{' '}
+              Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When I'm not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and (more recently) Pickleball. As a hobbyist I am building on the latest tools like:{' '}
             <Link href="https://www.validide.io/" target="_blank">
             A-Frame,{' '} 
             </Link>
@@ -182,8 +184,9 @@ const Home = () => (
             </Link>
             and{' '}
             <Link href="https://www.logseq.com" target="_blank">
-              Logseq.
-            </Link>
+              Logseq.{' '}
+            </Link> 
+            Also cultivating my digital garden.
           </Paragraph>
 
         </Section>
@@ -227,13 +230,24 @@ const Home = () => (
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.linkedin.com/in/seth-mcgaugh/" target="_blank">
+              <Link href="https://www.instagram.com/sethhmcgaugh/?hl=en" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<IoLogoInstagram />}
                 >
                   @seth-mcgaugh
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://ohmygaugh-crypto.github.io/DigitalGardenPublic/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoAnalyticsOutline />}
+                >
+                  My Digital Garden
                 </Button>
               </Link>
             </ListItem>
@@ -270,3 +284,5 @@ const Home = () => (
       //</Box>
 export default Home
 export { getServerSideProps } from '../components/chakra'
+
+//ADD HACKTHEBOX TO ontheweb once you are better!
