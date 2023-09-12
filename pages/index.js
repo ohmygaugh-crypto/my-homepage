@@ -241,7 +241,7 @@ const Home = () => (
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://ohmygaugh-crypto.github.io/DigitalGardenPublic/" target="_blank">
+              <Link href="https://digitalgarden-6f3.pages.dev/" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
