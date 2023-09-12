@@ -262,8 +262,8 @@ const Home = () => (
               My Mission 
             </GridItem>
             <GridItem
-              href="https://www.thrivacy.io/"
-              title="THRIVACY"
+              href="https://www.validide.io/"
+              title="VALIDIDE-->THRIVACY"
               thumbnail={thumbThrivacy}
             >
               A Privacy Company
