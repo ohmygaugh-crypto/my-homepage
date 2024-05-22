@@ -20,6 +20,7 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoAnalyticsOutline} from 'react-icons/io5'
 import thumbBlackbaud from '../public/images/links/blackbaudsocialgoodstartup.png'
 import thumbThrivacy from '../public/images/works/Thrivacycommunity.jpg'
+import thumbKrumware from '../public/images/works/krumhero.png'
 import Image from 'next/image'
 //import Graph from '../components/icons/graph.js' ... bad idea
 
