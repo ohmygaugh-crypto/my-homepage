@@ -162,7 +162,10 @@ const Home = () => (
           </BioSection>
           <BioSection>
             <BioYear>Currently</BioYear>
-            Looking for software product work that enables the human experience 👨‍💻.
+            Applying product strategy as a Sales Engineer for Platform Engineering+Application Development Custom Solutions @{' '}
+            <Link href="https://www.krum.io/contact">
+              Krumware.
+            </Link>
           </BioSection>
           <BioSection>
             <BioYear>TBA</BioYear>
@@ -175,8 +178,8 @@ const Home = () => (
             I ♥
           </Heading>
           <Paragraph>
-              Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and (more recently) Pickleball. As a hobbyist I am building on the latest tools like:{' '}
-            <Link href="https://www.validide.io/" target="_blank">
+          Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and getting lost while Foraging. As a hobbyist I am building on the latest tools like:{' '}
+            <Link href="https://barcrawl.netlify.app/" target="_blank">
             A-Frame,{' '} 
             </Link>
             <Link href="https://www.obsidian.com" target="_blank">
@@ -268,6 +271,13 @@ const Home = () => (
             >
               A Privacy Company
             </GridItem>
+            <GridItem
+              href="https://www.krum.io/contact"
+              title="Krumware"
+              thumbnail={thumbKrumware}
+            >
+              Work With Us
+            </GridItem>
           </SimpleGrid>
 
           
@@ -285,4 +295,5 @@ const Home = () => (
 export default Home
 export { getServerSideProps } from '../components/chakra'
 
-//ADD HACKTHEBOX TO ontheweb once you are better!
+//ADD HACKTHEBOX TO ontheweb once you are better! Also Kubernetes Certs. Also Observable INTERACTIVE visualizations... ones that are linked to an article people can play with
+
