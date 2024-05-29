@@ -57,7 +57,7 @@ const Home = () => (
             <Heading as="h2" variant="page-title">
               Seth McGaugh
             </Heading>
-            <p>Digital Native ( Product Strategist / Programmer )</p>
+            <p>Digital Native ( Product Strategist / Platform Engineering )</p>
             <Link href="https://app.apollo.io/#/meet/seth_mcgaugh_krumware">
               Book a meeting with me
             </Link>
