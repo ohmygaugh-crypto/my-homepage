@@ -182,18 +182,19 @@ const Home = () => (
             I ♥
           </Heading>
           <Paragraph>
-          Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and getting lost while Foraging. I love graph theory and I&apos;m professionally certified with the leading graph database company{' '}
+            Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and getting lost while Foraging. I love graph theory and I&apos;m professionally certified with the leading graph database company{' '}
             <Link href="https://graphacademy.neo4j.com/certificates/0074651440379ffa7c39cd6ce751752e61997bf9942344a6c3d48f6b414f63c6.pdf" target="_blank">
-            Neo4j{' '}. 
+              Neo4j
             </Link>
-            As a Technical Product Manager/Strategist I hope to show you the power of graph theory for decison making.{' '}
+            . As a Technical Product Manager/Strategist I hope to show you the power of graph theory for decision making.{' '}
             <Link href="https://graphacademy.neo4j.com/c/3fd1cef6-a9ad-43e8-9716-490f03ea7147/" target="_blank">
-              I&apos;m also applying my graph theory skills{' '}
-            </Link> 
-            to applications using  
+              I&apos;m also applying my graph theory skills
+            </Link>
+            {' '}to applications using{' '}
             <Link href="https://neo4j.com/blog/genai/graphrag-manifesto/" target="_blank">
-            GraphRAG techniques.{' '}
-            </Link> 
+              GraphRAG techniques
+            </Link>
+            .
           </Paragraph>
 
         </Section>
