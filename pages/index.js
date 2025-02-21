@@ -58,7 +58,7 @@ const Home = () => (
               Seth McGaugh
             </Heading>
             <p>Digital Native ( Product Strategist / Platform Engineering )</p>
-            <Link href="https://app.apollo.io/#/meet/seth_mcgaugh_krumware">
+            <Link href="https://calendly.com/sethhmcgaugh">
               Book a meeting with me
             </Link>
           </Box>
@@ -127,22 +127,22 @@ const Home = () => (
           <BioSection>
             <BioYear>2020</BioYear>
             Earned 3rd place in the University of South Carolina {' '}
-            <Link href="https://www.sc.edu/about/offices_and_divisions/provost/academicpriorities/undergradstudies/mcnair_blockchain.php">
+            <Link href="https://southcarolinablockchain.org/challenge/">
             McNair Institute Blockchain Challenge
             </Link>{' '}
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
             Co-founded a startup called{' '}
-            <Link href="https://www.thrivacy.io/why-thrivacy">
-            THRIVACY!{' '}
+            <Link href="https://validide.com/">
+            VALIDIDE--{'>'}THRIVACY!{' '}
             </Link>
             A Web3 Wallet & Privacy Platform based in Columbia, SC - USA.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
             Accepted into the{' '}
-            <Link href="https://www.blackbaud.com/socialgoodaccelerator">
+            <Link href="https://www.blackbaud.com/newsroom/article/blackbaud-s-social-good-startup-program-brings-innovative-tech-solutions-to-mission-based-organizations">
             Blackbaud Social Good Accelerator.
             </Link>
             {' '}As well as {' '}
@@ -182,18 +182,18 @@ const Home = () => (
             I ♥
           </Heading>
           <Paragraph>
-          Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and getting lost while Foraging. As a hobbyist I am building on the latest tools like:{' '}
-            <Link href="https://barcrawl.netlify.app/" target="_blank">
-            A-Frame,{' '} 
+          Product Strategy. It primes me to listen first, speak less, say NO strategically, and take action(s) decisively. When not professionally staring at screens all day I enjoy: Cooking, Gardening, Hunting/Fishing, and getting lost while Foraging. I love graph theory and I'm professionally certified with the leading graph database company{' '}
+            <Link href="https://graphacademy.neo4j.com/certificates/0074651440379ffa7c39cd6ce751752e61997bf9942344a6c3d48f6b414f63c6.pdf" target="_blank">
+            Neo4j{' '} 
             </Link>
-            <Link href="https://www.obsidian.com" target="_blank">
-              obsidian{' '}
-            </Link>
-            and{' '}
-            <Link href="https://www.logseq.com" target="_blank">
-              Logseq.{' '}
+           . As a Technical Product Manager/Strategist I hope to show you the power of graph theory for decison making.{' '}
+            <Link href="https://graphacademy.neo4j.com/c/3fd1cef6-a9ad-43e8-9716-490f03ea7147/" target="_blank">
+              I'm also applying my graph theory skills{' '}
             </Link> 
-            Also cultivating my digital garden.
+            to applications using 
+            <Link href="https://neo4j.com/blog/genai/graphrag-manifesto/" target="_blank">
+            GraphRAG techniques.{' '}
+            </Link> 
           </Paragraph>
 
         </Section>
@@ -269,7 +269,7 @@ const Home = () => (
               My Mission 
             </GridItem>
             <GridItem
-              href="https://www.validide.io/"
+              href="https://thrivacy.medium.com/"
               title="VALIDIDE-->THRIVACY"
               thumbnail={thumbThrivacy}
             >
